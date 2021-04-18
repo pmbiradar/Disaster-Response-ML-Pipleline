@@ -61,12 +61,14 @@ As part of this project , I have analyzed disaster data from source Figure Eight
 
 The file process_data.py contains an ETL pipeline that: 
   Loads data for messages and categories from csv
-  Merges two datasets  Cleans the data 
+  Merges two datasets 
+  Cleans the data 
   Saves it in a SQLite database DisasterResponse.db
 
 The file train_classifier.py contains a NLP and ML pipeline that: 
   Loads data from database DisasterResponse.db 
-  Splits data into training and test sets  Tokenize , Normalize text and build machine learning pipeline 
+  Splits data into training and test sets 
+  Tokenize , Normalize text and build machine learning pipeline 
   Fit the model to Training set and tunes a model using GridSearchCV 
   Outputs results on the test set by using the best performance parameters from GridSearchCV 
   Stores the model in classifier.pkl so that it can be used by the Flask app
@@ -77,6 +79,12 @@ The file run.py contains a Flask web app that
   Contains some visualizations that describe the data used to train the model.
 
 ## Results
+
+Visuals
+
+![Overview](https://github.com/pmbiradar/Disaster-Response-ML-Pipleline/blob/main/Overview%20of%20Training%20Set.PNG)
+
+![Message Classification](https://github.com/pmbiradar/Disaster-Response-ML-Pipleline/blob/main/Message%20Classification.PNG)
 
 When a disaster message is submitted and the Classify Message button is clicked, the app shows how the message is classified by highlighting the categories in green.
 
