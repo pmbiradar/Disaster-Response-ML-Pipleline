@@ -15,13 +15,13 @@ Classify Disaster Response Messages Classification of Disaster Response Messages
 The code should run using Python versions 3.*. 
 
 The necessary libraries are: 
-  • pandas 
-  • re 
-  • sys 
-  • sklearn 
-  • nltk 
-  • sqlalchemy 
-  • pickle
+  1. pandas 
+  2. re 
+  3. sys
+  4. sklearn
+  5. nltk
+  6. sqlalchemy
+  7. pickle
 
 ## Quick Start
 
@@ -84,9 +84,10 @@ Visuals
 
 ![Overview](https://github.com/pmbiradar/Disaster-Response-ML-Pipleline/blob/main/Overview%20of%20Training%20Set.PNG)
 
+When a disaster message is submitted and the Classify Message button is clicked, the app shows how the message is classified by highlighting the categories in green.
 ![Message Classification](https://github.com/pmbiradar/Disaster-Response-ML-Pipleline/blob/main/Message%20Classification.PNG)
 
-When a disaster message is submitted and the Classify Message button is clicked, the app shows how the message is classified by highlighting the categories in green.
+
 
 ## Acknowledgements 
 
